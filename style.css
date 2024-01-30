@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto;
+    background-color: hsl(235, 18%, 26%);
+}
+
+.attribution {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+.card {
+    margin-top: 5em;
+    width: 80%;
+    border-radius: 42px;
+}
+
+img {
+    margin-top: 7%;
+    height: 90%;
+}
+
+h1 {
+    padding-top: 4rem;
+    font-size: 3rem;
+    margin-top: .5em;
+    margin-left: 1em;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+
+p {
+    margin-left: 3em;
+    width: 65%;
+    font-weight: 500;
+    color: hsl(235, 18%, 26%);
+    font-size: 1rem;
+}
+
+ul li {
+    list-style: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+svg {
+    color: hsl(4, 100%, 67%);
+}
+
+.label {
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    margin-bottom: .4em;
+}
+
+input.form-control {
+    padding: .9em;
+    width: 70%;
+}
+
+button.btn {
+    font-weight: 700;
+    width: 70%;
+    padding: .8em;
+    border: hsl(234, 29%, 20%);
+    background-color: hsl(234, 29%, 20%);
+}
+
+button.btn:hover {
+    background-color: hsl(4, 100%, 67%);
+}
+
+.text-danger {
+    font-weight: 700;
+    margin-left: 2em;
+}
+
+.invalid-email {
+    font-weight: 700;
+    margin-left: 2em;
+}
+
+.error {
+    background-color: #ffcccc;
+    border: 1px solid #ff0000;
+}
+
+.success-card {
+    width: 30%;
+    /* height: 50vh; */
+
+}
+
+.success-width {
+    width: 100%;
+}
+
+.svg-icon {
+    margin-top: 2rem;
+    display: none;
+    margin-left: 2rem;
+}
+
+@media (max-width:1200px) {
+    img {
+        margin-left: -3em;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .card {
+        margin-top: 5em;
+        width: 100%;
+        border-radius: 22px;
+    }
+
+    ul li {
+        font-size: small;
+        letter-spacing: 0px;
+    }
+
+    .label,
+    input.form-control {
+        margin-left: 3rem;
+        padding: .5rem;
+
+    }
+
+    input.form-control {
+        font-size: small;
+    }
+
+    button.btn {
+        font-size: small;
+        margin-left: 3rem;
+    }
+
+    img {
+        margin-left: .1em;
+        width: 100%;
+    }
+
+    h1 {
+        margin-top: 1rem;
+
+    }
+
+    .error-message {
+        font-size: small;
+        padding-left: 1.4rem;
+    }
+
+    .success-card {
+        width: 100%;
+    }
+
+    .invalid-email {
+        font-size: small;
+        padding-left: 1.4rem;
+    }
+
+}
